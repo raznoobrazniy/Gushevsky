@@ -87,8 +87,8 @@ Summary:
 
 Description: 
   Окно "Already Have a DailyStrength Account?" не является уже актуальным на странице сайта после авторизации через Facebook.
-  Авторизация пользователя через аккаунт Facebook уже подразумевает отсутствие регистрации на данном сайте и нежелание регистрироваться
-  через стандартную форму
+  Авторизация пользователя через аккаунт Facebook уже подразумевает отсутствие регистрации на данном сайте и нежелание 
+  регистрироваться через стандартную форму
 
 Steps To Reproduce:
   1. Открыть сайт http://...
@@ -115,8 +115,8 @@ Summary:
   Смещается строка "Support Group/Member Group Join" на странице "Congrats, thanks for signing up!" после заполнения "Username"
 
 Description: 
-  Строка "Support Group/Member Group Join" выходит за пределы формы "Your Facebook Info" на странице "Congrats, thanks for signing up!"
-  после заполнения поля "Username"
+  Строка "Support Group/Member Group Join" выходит за пределы формы "Your Facebook Info" на странице "Congrats, thanks for 
+  signing up!" после заполнения поля "Username"
 
 Steps To Reproduce:
   1. Открыть сайт http://...
