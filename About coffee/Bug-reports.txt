@@ -1,0 +1,50 @@
+﻿--------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Summary: 
+  Text of the "September 2016" link is displayed outside of one line in the right sidebar
+
+Description: 
+  Text of the "September 2016" link is displayed outside of one line in the right sidebar
+
+
+Steps To Reproduce: 
+  1. Open the site http://...
+  2. Pay attention to the text of the "September 2016" link in the right sidebar
+
+  Actual result:
+  Text of the "September 2016" link is displayed outside of one line in the right sidebar
+
+  Expected result:
+  Text of the "September 2016" link is displayed in one line in the right sidebar
+
+Attached Files:
+  Bug_1.jpg
+---------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Summary: 
+  One of the images of the slider is not displayed in the header of the home page
+
+Description: 
+  One of the images of the slider is not displayed in the header of the home page
+
+Steps To Reproduce: 
+  1. Open the site http://...
+  2. Scroll up the home page
+  3. Pay attention to the display of all slider images
+
+  Actual result:  
+  One of the images of the slider is not displayed in the header of the home page
+
+  Expected result:
+  All images of the slider are displayed in the header of the home page
+
+Attached Files:
+  Bug_2.jpg
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
