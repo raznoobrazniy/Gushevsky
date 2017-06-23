@@ -1,22 +1,14 @@
 ﻿--------------------------------------------------------------------------------------------------------------------------------
+
 Reporter: A. Gushevsky
-
 Assigned: Development department
-
 Priority: Normal
-
 Severity: Minor 
-
 Reproducibility: Always
-
 Status: Assigned
-
 Resolution: Open
-
 Platform: Firefox 49.0.1
-
 OS: windows 7 professional 64-bit
-
 OS Version: 6.1.7601 Service Pack 1 build 7601
 
 Summary: 
@@ -46,23 +38,14 @@ Attached Files:
 
 
 Reporter: A. Gushevsky
-
 Assigned: Development department
-
 Priority: Normal
-
 Severity: Minor 
-
 Reproducibility: Always
-
 Status: Assigned
-
 Resolution: Open
-
 Platform: Firefox 49.0.1
-
 OS: windows 7 professional 64-bit
-
 OS Version: 6.1.7601 Service Pack 1 build 7601
 
 Summary: 
