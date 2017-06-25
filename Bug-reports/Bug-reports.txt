@@ -72,3 +72,146 @@ Additional Information:
 ----------------------------------------------------------------------------------------------------------------------------------
 
 
+
+Reporter: A. Gushevsky
+Assigned: Development department
+Priority: Normal
+Severity: Minor 
+Reproducibility: Always
+Status: Assigned
+Resolution: Open
+Platform: Firefox 49.0.1
+OS: windows 7 professional 64-bit
+OS Version: 6.1.7601 Service Pack 1 build 7601
+
+Summary: 
+  The message about adding the "Grey Suite" product to cart isn't displayed on the page after clicking the "Add to cart" button
+
+Description: 
+  The message about adding the "Grey Suite" product to cart isn't displayed on the page after clicking the "Add to cart" button
+
+Steps To Reproduce: 
+  1. Open the site http://...
+  2. Click the "Women" menu item in the header of the home page
+  3. Click the "Suits" menu item in the right sidebar
+  4. Open the card of the "Grey Suite" product
+  5. Click the "Add to cart" button
+  6. Pay attention to confirmation window about adding the product to cart
+
+  Actual result:
+  The message about adding the "Grey Suite" product to cart isn't displayed on the site page after clicking the "Add to cart" button
+
+  Expected result:
+  The message about adding the "Grey Suite" product to cart is displayed on the site page after clicking the "Add to cart" button
+
+Additional Information:
+  This bug is reproduced in Chrome 54.0.2840.59, Opera 9.24 and Internet Explorer 8.
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Reporter: A. Gushevsky
+Assigned: Development department
+Priority: Normal
+Severity: Minor 
+Reproducibility: Always
+Status: Assigned
+Resolution: Open
+Platform: Firefox 49.0.1
+OS: windows 7 professional 64-bit
+OS Version: 6.1.7601 Service Pack 1 build 7601
+
+Summary: 
+  The quantity of products is not updated in the "Cart" form after adding the "Blouse" product to the cart
+
+Description: 
+  The quantity of products is not updated in the "Cart" form after adding the "Blouse" product to the cart
+
+Steps To Reproduce: 
+  1. Open the site http://...
+  2. Open the card of the "Blouse" product
+  3. Click the "Add to cart" button
+  4. Click the "Continue shopping" button
+  5. Pay attention to the quantity of products in the "Cart" form
+
+  Actual result:
+  The quantity of products is not updated in the "Cart" form after adding the "Blouse" product to the cart
+
+  Expected result:
+  The quantity of products is updated in the "Cart" form after adding the "Blouse" product to the cart
+
+Additional Information:
+  This bug is reproduced in Chrome 54.0.2840.59, Opera 9.24 and Internet Explorer 8.
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Reporter: A. Gushevsky
+Assigned: Development department
+Priority: Normal
+Severity: Minor 
+Reproducibility: Always
+Status: Assigned
+Resolution: Open
+Platform: Chrome 54.0.2840.68
+OS: Android 5.0.2
+OS Version: Htc Sense 6.0
+
+Summary: 
+  [Mobile] Htc: The delimiters of blocks are not displayed fully at the main menu after rotating device to the portrait mode
+
+Description: 
+   The delimiters of blocks are not displayed fully at the main menu after rotating device to the portrait mode
+
+Steps To Reproduce: 
+  1. Open the site http://...
+  2. Rotate device to the portrait mode
+  3. Swipe up the home page
+  4. Pay attention to the delimiters of blocks at the main menu
+
+  Actual result:
+  The delimiters of blocks are not displayed fully at the main menu after rotating device to the portrait mode
+
+  Expected result:
+  The delimiters of blocks are displayed fully at the main menu after rotating device to the portrait mode
+
+ Additional Information:
+  Htc One M7 Android 5.0.2 Sense 6.0.
+  This bug is reproduced on all pages with the common header of the site.
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+
+Reporter: A. Gushevsky
+Assigned: Development department
+Priority: Normal
+Severity: Minor 
+Reproducibility: Always
+Status: Assigned
+Resolution: Open
+Platform: Chrome 54.0.2840.68
+OS: Android 5.0.2
+OS Version: Htc Sense 6.0
+
+Summary: 
+  [Mobile] Htc: The "Blouse" product is not deleted at the drop-down window of the "Cart" form after tapping the delete button
+
+Description: 
+  The "Blouse" product is not deleted at the drop-down window of the "Cart" form after tapping the delete button
+
+Steps To Reproduce: 
+  1. Open the site http://...
+  2. Add to cart the "Blouse" product
+  3. Tap the "Cart" form
+  4. Delete the "Blouse" product from the cart
+  5. Pay attention to the content of the drop-down window of the "Cart" form
+
+  Actual result:
+  The "Blouse" product is not deleted at the drop-down window of the "Cart" form after tapping the delete button
+
+  Expected result:
+  The "Blouse" product is deleted at the drop-down window of the "Cart" form after tapping the delete button
+
+Additional Information:
+  Htc One M7 Android 5.0.2 Sense 6.0.
+----------------------------------------------------------------------------------------------------------------------------------
