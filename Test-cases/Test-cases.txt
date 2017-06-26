@@ -1,122 +1,91 @@
-﻿--------------------------------------------------------------------------------------------------------------------------------
+﻿Группа тестов : Создание нового аккаунта на сайте www...
+
+--------------------------------------------------------------------------------------------------------------------------------
 
 
 
-Summary: 
-  Text of the "September 2016" link is displayed outside of one line in the right sidebar
+Summary:
+  Регистрация пользователя с корректной электронной почтой
 
-Description: 
-  Text of the "September 2016" link is displayed outside of one line in the right sidebar
+Preconditions:
+  Пользователь перешел на страницу "Authentication" нажав на форму "Войти" в шапке главной страницы сайта www...
 
+Step actions: 
+  Step 1: 
+    В строку "Email address" формы "Create an account" ввести существующий адрес электронной почты test_shop@i.ua и нажать на 
+    кнопку "Create an account"
+  Expected Results 1: 
+    Происходит переход на форму "Your personal information" для завершения регистрации
 
-Steps To Reproduce: 
-  1. Open the site http://...
-  2. Pay attention to the text of the "September 2016" link in the right sidebar
+  Step 2: 
+    Заполнить обязательные поля значениями "First name" - Alex, "Last name" - Testov, "Password" - 123ABC
+  Expected Results 2: 
+    Введенные данные отображаются в полях регистрационной формы. Поля и текст в них подсвечены зеленым цветом
 
-  Actual result:
-  Text of the "September 2016" link is displayed outside of one line in the right sidebar
-
-  Expected result:
-  Text of the "September 2016" link is displayed in one line in the right sidebar
-
-Attached Files:
-  Bug_1.jpg
+  Step 3: 
+    Нажать на кнопку "Register"
+  Expected Results 3: 
+    Происходит переход на страницу "My account" с персональной информацией
 ---------------------------------------------------------------------------------------------------------------------------------
 
 
 
-Summary: 
-  One of the images of the slider is not displayed in the header of the home page
+Summary:
+  Регистрация пользователя с некорректной электронной почтой
 
-Description: 
-  One of the images of the slider is not displayed in the header of the home page
+Preconditions:
+  Пользователь перешел на страницу "Authentication" нажав на форму "Войти" в шапке главной страницы сайта www...
 
-Steps To Reproduce: 
-  1. Open the site http://...
-  2. Scroll up the home page
-  3. Pay attention to the display of all slider images
+Step actions: 
+  Step 1: 
+    В строку "Email address" формы "Create an account" ввести адрес электронной почты - "test" и нажать на 
+    кнопку "Create an account"
+  Expected Results 1: 
+    Появляется сообщение об ошибке "Invalid email address"
 
-  Actual result:  
-  One of the images of the slider is not displayed in the header of the home page
-
-  Expected result:
-  All images of the slider are displayed in the header of the home page
-
-Attached Files:
-  Bug_2.jpg
+  Step 2: 
+    В строку "Email address" формы "Create an account" ввести адрес электронной почты - "test@test" и нажать на 
+    кнопку "Create an account"
+  Expected Results 2: 
+    Появляется сообщение об ошибке "Invalid email address"
+ 
+  Step 3: 
+    В строку "Email address" формы "Create an account" ввести адрес электронной почты - "test.test" и нажать на 
+    кнопку "Create an account"
+  Expected Results 3: 
+    Появляется сообщение об ошибке "Invalid email address"
 ----------------------------------------------------------------------------------------------------------------------------------
 
 
 
-Summary: 
-  The "404 Error" page is displayed after clicking the "January 2016" link in the right sidebar
+Summary:
+  Регистрация пользователя с некорректными данными в поле "Password" формы "Your personal information"
 
-Description: 
-  The "404 Error" page is displayed after clicking the "January 2016" link in the right sidebar
+Preconditions:
+  Пользователь перешел на страницу "Authentication" нажав на форму "Войти" в шапке главной страницы сайта www...
 
-Steps To Reproduce: 
-  1. Open the site http://...
-  2. Go to the right sidebar
-  3. Click the "January 2016" link
-  4. Pay attention to the page
+Step actions: 
+  Step 1: 
+    В строку "Email address" формы "Create an account" ввести существующий адрес электронной почты test_shop@i.ua и 
+    нажать на кнопку "Create an account"
+  Expected Results 1: 
+    Происходит переход на форму "Your personal information" для завершения регистрации
 
-  Actual result:
-  The "404 Error" page is displayed after clicking the "January 2016" link in the right sidebar
+  Step 2: 
+    Step 2: 
+    Заполнить обязательные поля значениями "First name" - Alex, "Last name" - Testov
+  Expected Results 2: 
+    Введенные данные отображаются в полях регистрационной формы. Поля и текст в них подсвечены зеленым цветом
+   
+  Step 3: 
+    Заполнить обязательное поле "Password" значением "1234"
+  Expected Results 3: 
+    Поле Password" и его содержимое подсвечены красным цветом
 
-  Expected result:
-  The page is displayed with the relevant data after clicking the "January 2016" link in the right sidebar
-
-Attached Files:
-   http://www.screencast.com/t/PgRLApvJdz12
+  Step 4: 
+    Нажать на кнопку "Register"
+  Expected Results 3: 
+    Появляется сообщение об ошибке "The password must contain at least five characters!"
 ----------------------------------------------------------------------------------------------------------------------------------
-
-
-
-Summary: 
-  The logo is not displayed in the header of the home page
-
-Description: 
-  The logo is not displayed in the header of the home page
-
-Steps To Reproduce: 
-  1. Open the site http://...
-  2. Pay attention to the logo in the header of the home page
-
-  Actual result:
-  The logo is not displayed in the header of the home page
-
-  Expected result:
-  The logo is displayed in the header of the home pagee
-
-Attached Files:
-  Bug_4.jpg
-----------------------------------------------------------------------------------------------------------------------------------
-
-
-
-Summary: 
-  The "Contacts" menu item is written with all capital letters in the header of the home page
-
-Description: 
-  The "Contacts" menu item is written with all capital letters in the header of the home page
-
-Steps To Reproduce: 
-  1. Open the site http://...
-  2. Scroll up the home page
-  3. Pay attention to the "Contacts" menu item
-
-  Actual result:
-  The "Contacts" menu item is written with all capital letters in the header of the home page
-
-  Expected result:
-  Only the first letter of the "Contacts" menu item should be the capital in the header of the home page
-
-Attached Files:
-  Bug_5.jpg
-----------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
 
 
